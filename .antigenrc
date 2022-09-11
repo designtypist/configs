@@ -1,27 +1,47 @@
-# Load oh-my-zsh library.
+# Load oh-my-zsh library
 antigen use oh-my-zsh
 
-# Load bundles from the default repo (oh-my-zsh).
-antigen bundle git
-antigen bundle nvm
-antigen bundle ssh
-antigen bundle docker
+# Load common bundles
 antigen bundle command-not-found
+antigen bundle git
+antigen bundle ssh
+antigen bundle zsh-interactive-cd
 
-# Extras bundles
+# System admin bundles
 antigen bundle cp
-antigen bundle docker-compose
-antigen bundle gatsby
-antigen bundle vscode
+antigen bundle history
+antigen bundle man
+antigen bundle screen
+antigen bundle sudo
+antigen bundle systemd
+antigen bundle ufw
 antigen bundle wakeonlan
+
+# Developer bundles
+antigen bundle brew
+antigen bundle dotenv
+antigen bundle node
+antigen bundle npm
+antigen bundle nvm
+antigen bundle pip
+antigen bundle python
+antigen bundle wp-cli
 antigen bundle yarn
 
-# Load bundles from external repos.
+# DevOps bundles
+antigen bundle ansible
+antigen bundle aws
+antigen bundle docker
+antigen bundle docker-compose
+antigen bundle kubectl
+antigen bundle terraform
+
+# Load bundles from external repos
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Select theme.
+# Select theme (default robbyrussell)
 antigen theme robbyrussell
 
 # Tell Antigen that you're done.
