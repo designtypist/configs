@@ -5,7 +5,7 @@
 - Vim config using [amix vimrc](https://github.com/amix/vimrc)
 
 ## Other Resources:
-- Lost of config files [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
+- Popular config files setup [awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 
 ## Tasks:
 - zsh config (plugins used)
